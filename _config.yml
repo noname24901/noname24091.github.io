@@ -26,12 +26,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://noname24901.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username: jekyll
+image: /assets/images/default.jpg
 
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
+
+feed:
+  image: /assets/images/default.jpg
 # domain: noname24901.github.io # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 # url: https://noname24091.github.io # the base hostname and protocol for your site, e.g. http://example.com
 # baseurl: /docs # place folder name if the site is served in a subfolder
